@@ -1,0 +1,30 @@
+﻿El problema planteado consiste en modelar un sistema de streaming musical que se ha parecido a una plataforma como Spotify.
+Aplicando la programación Orientada a Objetos (POO)
+El sistema debe:
+Manejar diferentes tipos de usuarios (estándar y premium).
+Almacenar y reproducir canciones, álbumes y artistas.
+Permitir la reproducción aleatoria de música, con o sin publicidad.
+Gestionar listas de favoritos (solo para usuarios premium).
+Cargar y actualizar los datos desde archivos externos que simulen la base de datos.
+objetivo.
+
+
+Diferenciada según el tipo de usuario:
+
+
+Estándar tiene anuncios, calidad 128 kbps.
+
+
+Premium  sin anuncios, calidad 320 kbps, control de reproducción y listas favoritas.
+
+
+funcionamiento
+Ingreso a la plataforma:
+Autenticación mediante nickname (consultando el archivo de usuarios).
+Dependiendo del tipo (estándar/premium), se muestran opciones diferentes en el menú.
+
+Reproducción de canciones:
+Selección aleatoria de canciones
+Mostrar rutas completas de audio y portada.
+Usuarios estándar le mostrará anuncios cada 2 canciones, evitando repeticiones consecutivas.
+Usuarios premium tendrán acceso a las siguientes opciones Agregar o eliminar canciones por ID,Reproducir la lista en orden o aleatoriamente.
