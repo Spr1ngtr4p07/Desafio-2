@@ -1,0 +1,142 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="27.0.3">
+  <diagram name="Página-1" id="mewPu_KN77g7gaSUnIGy">
+    <mxGraphModel dx="1025" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LiCzz8mnabV_Poh5ClE3-3" target="LiCzz8mnabV_Poh5ClE3-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="60" width="200" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-4" value="Usuario" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="60" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-6" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="LiCzz8mnabV_Poh5ClE3-4" target="LiCzz8mnabV_Poh5ClE3-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="440" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-13" value="- string nickname;&lt;div&gt;- string ciudad;&lt;/div&gt;&lt;div&gt;-string pais;&lt;/div&gt;&lt;div&gt;-string fecha;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="80" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-15" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LiCzz8mnabV_Poh5ClE3-13" target="LiCzz8mnabV_Poh5ClE3-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="170" as="sourcePoint" />
+            <mxPoint x="440" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-16" value="+ Usuario(string nickname,string ciudad, string pais, string fecha);&lt;div&gt;+ string gernombres()&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="317.5" y="160" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="290" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-18" value="UdeaATunes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="290" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-19" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LiCzz8mnabV_Poh5ClE3-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="350" as="sourcePoint" />
+            <mxPoint x="491" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-20" value="- vector&amp;lt;usuario*&amp;gt;usuarios;&lt;div&gt;- vector&amp;lt;usuario*&amp;gt;usuarios;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="320" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-21" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LiCzz8mnabV_Poh5ClE3-20" target="LiCzz8mnabV_Poh5ClE3-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="350" as="sourcePoint" />
+            <mxPoint x="440" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-22" value="+ void almacenarUsuario(string nombre, Usuario* u)&#xa;    + void almacenarArtista(string nombre, Artista* a)&#xa;    + void mostrarUsuarios()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="360" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="520" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LiCzz8mnabV_Poh5ClE3-25" target="LiCzz8mnabV_Poh5ClE3-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-25" value="Album" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="520" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-26" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LiCzz8mnabV_Poh5ClE3-25" target="LiCzz8mnabV_Poh5ClE3-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="550" as="sourcePoint" />
+            <mxPoint x="440" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-27" value="- string nombre;&lt;div&gt;-&amp;nbsp; string patrocinador:&lt;/div&gt;&lt;div&gt;- float duraacion;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="555" width="200" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-30" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LiCzz8mnabV_Poh5ClE3-27" target="LiCzz8mnabV_Poh5ClE3-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="550" as="sourcePoint" />
+            <mxPoint x="440" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-31" value="+ Album(string nombre,string patrocinador,float duracion);" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="620" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="LiCzz8mnabV_Poh5ClE3-33" target="LiCzz8mnabV_Poh5ClE3-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="520" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-34" value="Cancion" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="520" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-35" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LiCzz8mnabV_Poh5ClE3-34" target="LiCzz8mnabV_Poh5ClE3-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="570" as="sourcePoint" />
+            <mxPoint x="440" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-36" value="- string nombre;&lt;div&gt;- float duracion;&lt;/div&gt;&lt;div&gt;- string genero;&lt;/div&gt;&lt;div&gt;- vector&amp;lt;patrocinador*&amp;gt; patrocinador;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="550" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-37" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LiCzz8mnabV_Poh5ClE3-36" target="LiCzz8mnabV_Poh5ClE3-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="570" as="sourcePoint" />
+            <mxPoint x="760" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-40" value="+ cancion(string nombre, float duracion,string genero)&lt;div&gt;+ void agregarpatocinador&lt;/div&gt;&lt;div&gt;+ void reproducir&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="625" width="200" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-42" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="290" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-45" value="Artista" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="290" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-46" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LiCzz8mnabV_Poh5ClE3-45" target="LiCzz8mnabV_Poh5ClE3-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="470" as="sourcePoint" />
+            <mxPoint x="440" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-47" value="- int documento;&lt;div&gt;- int edad;&lt;/div&gt;&lt;div&gt;- string nombre;&lt;/div&gt;&lt;div&gt;- string pais;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="320" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-48" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LiCzz8mnabV_Poh5ClE3-47" target="LiCzz8mnabV_Poh5ClE3-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="470" as="sourcePoint" />
+            <mxPoint x="440" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LiCzz8mnabV_Poh5ClE3-49" target="LiCzz8mnabV_Poh5ClE3-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LiCzz8mnabV_Poh5ClE3-49" value="+ Artista(int documento,int edad,string nombre,string pais);&lt;div&gt;+ string getnombre()&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="380" width="200" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
